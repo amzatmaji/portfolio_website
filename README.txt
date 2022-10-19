@@ -1,0 +1,3 @@
+This is my portfolio website.
+I am learning how to code on a website called CODECADEMY and up to this point, I have learned how to make a static website using HTML and CSS, and also how to add a bit of interactivity using Javascript. 
+This website contains the projects that I have built on my path with CODECADEMY. It has a main page listing out these projects and another page that contains my contact information, in case anyone wants to reach out to me.
