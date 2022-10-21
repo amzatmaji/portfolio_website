@@ -47,6 +47,23 @@ li {
 .email {
     border: 1px solid brown;
     font-family: 'Fuzzy Bubbles', cursive;
-    padding: 3rem 1.5rem;
+    padding: 6rem 1.5rem;
 }
 
+@media only screen and (min-width: 550px) {
+    .main_text {
+        text-align: center;
+    }
+    .main_text p {
+        font-family: cursive;
+        font-size: 1.5rem;
+    }
+    .tel {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .email {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
