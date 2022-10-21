@@ -44,6 +44,9 @@ li {
     padding: 3rem 1.5rem;
     font-family: 'Fuzzy Bubbles', cursive;
 }
+.main_text p {
+    font-size: 1.1rem;
+}
 .email {
     border: 1px solid brown;
     font-family: 'Fuzzy Bubbles', cursive;
