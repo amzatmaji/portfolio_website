@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+}
+.header {
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    max-width: 85%;
+    margin: 0 auto;
+}
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: orangered;
+}
+h2 {
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: orange;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+li {
+    list-style: none;
+}
+.tel {
+    border: 1px solid brown;
+    margin: 30px auto;
+    padding: 3rem 1.5rem;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.email {
+    border: 1px solid brown;
+    font-family: 'Fuzzy Bubbles', cursive;
+    padding: 3rem 1.5rem;
+}
+

@@ -1,23 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <header>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="top">
+      <div class="header">
         <h1>AMZAT MAJI</h1>
         <nav>
-            <ul>
-                <li>Home</li>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contacts</li>
-            </ul>
+          <ul class="nav_links">
+            <li class="nav_item">Home</li>
+            <li class="nav_item">About Me</li>
+            <li class="nav_item">Projects</li>
+            <li class="nav_item">Contacts</li>
+          </ul>
         </nav>
+      </div>
     </header>
-</body>
+    <main>
+      <section class="about_me">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm Amzat, an aspiring web developer. I am 21 years old and I
+            am in my final year of studying Chemical Engineering in the
+            university. Sometime ago, I developed an interest in blockchain
+            technology. Being someone who had never even written a line of code,
+            getting into tech seemed like an impossible task, but I was
+            determined. I have now spent the last six months learning frontend
+            development as a first step to becoming a web developer. I have now
+            learnt HTML, CSS, and I am currently learning Javascript.
+          </p>
+          <p>
+            Along my learning path, I was required to build some interesting
+            projects. I made this website so I can show you some of those
+            projects. I hope you like them!
+          </p>
+        </div>
+        <div>
+          <img
+            src="./images/IMG_7960.jpeg"
+            alt="An image of me and the love of my life"
+          />
+        </div>
+      </section>
+      <section class="projects">
+        <h2>My Projects</h2>
+        <details class="project">
+          <summary class="project_title">HTML/CSS Cheatsheet</summary>
+          <img
+            src="./images/html cheatsheet.png"
+            alt="a snapshot of a section of the html cheatsheet"
+          />
+          <p class="project_detail">
+            This is a cheatsheet of some common HTML elements and CSS properties
+            to help you remember them easily. Click <a href="#">here</a> to see
+            the full cheatsheet.
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project_title">Tea Cozy</summary>
+          <img
+            src="./images/tea cozy.png"
+            alt="a snapshot of a coffee shop's landing page"
+          />
+          <p class="project_detail">
+            In this project, I created a landing page for the website of a
+            coffee shop. Click <a href="#">here</a> to view the full website
+          </p>
+        </details>
+        <details class="project">
+          <summary class="project_title">Club Website</summary>
+          <img
+            src="./images/club.png"
+            alt="a snapshot of a social club's website"
+          />
+          <p class="project-detail">
+            In this project, I was asked to create a website for a functional
+            social/community club. Click <a href="#">here</a> to go to the full
+            website
+          </p>
+        </details>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <div>
+        <ul class="mobile_nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <hr />
+  </body>
 </html>
