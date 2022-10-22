@@ -1,6 +1,6 @@
 let header = document.getElementById('top');
 function firstFunc() {
-    header.style.backgroundColor = 'blue';
+    header.style.backgroundColor = 'darkred';
 }
 header.onclick = firstFunc;
 
