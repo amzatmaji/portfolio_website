@@ -58,4 +58,61 @@ main, footer, hr {
 hr {
     margin: 2rem auto;
 }
-
+strong {
+    font-size: 1.2rem;
+}
+summary {
+    margin-bottom: 1rem;
+}
+@media only screen and (min-width: 550px) {
+    .mobile_nav {
+        display: none;
+    }
+    .header {
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav {
+        display: block;
+        color: white;
+    }
+   .nav_links {
+    display: flex;
+   }
+   .nav_links a {
+    text-decoration: none;
+    color: orange;
+    text-transform: uppercase;
+   }
+   .nav_item {
+    list-style: none;
+    font-size: 1.1rem;
+   }
+   .nav_item + .nav_item {
+    margin-left: 1.2rem;
+   }
+   .about_me {
+    display: flex;
+    justify-content: space-between;
+   }
+   .row img {
+    margin-top: 1rem;
+    
+   }
+   .row + .row{
+    margin-left: 2.5rem;
+   }
+   p {
+    font-size: 1.05rem;
+    letter-spacing: 0.8px;
+    line-height: 1.7;
+   }
+   .my_projects img {
+    max-width: 70%;
+   }
+   .my_projects p {
+    max-width: 70%;
+   }
+}

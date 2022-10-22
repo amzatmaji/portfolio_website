@@ -21,17 +21,18 @@
         <h1>AMZAT MAJI</h1>
         <nav>
           <ul class="nav_links">
-            <li class="nav_item">Home</li>
-            <li class="nav_item">About Me</li>
-            <li class="nav_item">Projects</li>
-            <li class="nav_item">Contacts</li>
+            <li class="nav_item"><a href="#">Home</a></li>
+            <li class="nav_item"><a href="#projects">Projects</a></li>
+            <li class="nav_item">
+              <a href="./contact.html" target="_blank">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
       <section class="about_me">
-        <div>
+        <div class="row" id="row_1">
           <h2>About Me</h2>
           <p>
             Hello! I'm Amzat, an aspiring web developer. I am 21 years old and I
@@ -44,22 +45,31 @@
             learnt HTML, CSS, and I am currently learning Javascript.
           </p>
           <p>
+            I am a very focused and goal-oriented person and I always strive to
+            achieve the best in whatever I do. This is the reason why, even
+            though my coding journey has been somewhat tough for many reasons, I
+            am not going to back down from this. I am going to keep on keeping
+            on and learning everything I can and gradually I will get better at
+            this. Someday, I'll look back at this website and be grateful for
+            how far I have come and how much better I would have gotten.
+          </p>
+          <p>
             Along my learning path, I was required to build some interesting
             projects. I made this website so I can show you some of those
             projects. I hope you like them!
           </p>
         </div>
-        <div>
+        <div class="row" id="row_2">
           <img
             src="./images/IMG_7960.jpeg"
             alt="An image of me and the love of my life"
           />
         </div>
       </section>
-      <section class="projects">
+      <section class="my_projects" id="projects">
         <h2>My Projects</h2>
         <details class="project">
-          <summary class="project_title">HTML/CSS Cheatsheet</summary>
+          <summary class="project_title"><strong>HTML/CSS Cheatsheet</strong></summary>
           <img
             src="./images/html cheatsheet.png"
             alt="a snapshot of a section of the html cheatsheet"
@@ -71,7 +81,7 @@
           </p>
         </details>
         <details class="project">
-          <summary class="project_title">Tea Cozy</summary>
+          <summary class="project_title"><strong>Tea Cozy</strong></strong></summary>
           <img
             src="./images/tea cozy.png"
             alt="a snapshot of a coffee shop's landing page"
@@ -82,7 +92,7 @@
           </p>
         </details>
         <details class="project">
-          <summary class="project_title">Club Website</summary>
+          <summary class="project_title"><strong>Club's Website</strong></summary>
           <img
             src="./images/club.png"
             alt="a snapshot of a social club's website"
